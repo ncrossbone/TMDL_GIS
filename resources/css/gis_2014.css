@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+#GISTopWarp { width: 100%; height: 57px; background: url(../images/gis/TopWarpBg.png) repeat-x; position: relative; }
+#GISTopWarp H1 { width: 230px; height: 40px; position: absolute; left: 3%; top: 5px; background: url(../images/gis/sys_name.png) no-repeat; }
+#GISTopWarp H2 { width: 160px; height: 35px; position: absolute; right: 3%; top: 7px; background: url(../images/gis/nier_logo.png) no-repeat; }
+#GISTopWarp .Bt_ctrl { /*position: absolute; left: 500px; top: 7px;*/ position: absolute; left: 30%; top: 7px; }
+#GISTopWarp .Bt_ctrl li { float: left; margin-right: 15px; }
+#GISTopWarp .Bt_ctrl li a { display: block; height: 41px; }
+#GISTopWarp .Bt_ctrl li span { display: block; font-size: 11px; letter-spacing: -1px; color: #003663; padding-top: 28px; text-align: center; }
+#GISTopWarp .Bt_ctrl li.Util_01 { background: url(../images/gis/util_01.png) center top no-repeat; }
+#GISTopWarp .Bt_ctrl li.Util_02 { background: url(../images/gis/util_02.png) center top no-repeat; }
+#GISTopWarp .Bt_ctrl li.Util_03 { background: url(../images/gis/util_03.png) center top no-repeat; }
+#GISTopWarp .Bt_ctrl li.Util_04 { background: url(../images/gis/util_04.png) center top no-repeat; }
+#GISTopWarp .Bt_ctrl li.Util_05 { background: url(../images/gis/util_05.png) center top no-repeat; }
+#GISTopWarp .Bt_ctrl li.Util_06 { background: url(../images/gis/util_06.png) center top no-repeat; }
+#GISTopWarp .Bt_ctrl li.Util_07 { background: url(../images/gis/util_07.png) center top no-repeat; }
+#GISTopWarp .Bt_ctrl li.Util_08 { background: url(../images/gis/util_08.png) center top no-repeat; }
+#GISTopWarp .Bt_ctrl li.Util_09 { background: url(../images/gis/util_09.png) center top no-repeat; }
+#GISTopWarp .Bt_ctrl li.Util_10 { background: url(../images/gis/util_10.png) center top no-repeat; margin-right: 0px; }
+#GISTopWarp .Bt_ctrl li.Util_11 { background: url(../images/gis/util_11.png) center top no-repeat; margin-right: 0px; }
+#GISTopWarp .Bt_ctrl li.Util_12 { background: url(../images/gis/util_12.png) center top no-repeat; }
+#GISTopWarp .Bt_ctrl li.Util_13 { }
+#GISTopWarp .Bt_ctrl li.Util_13 select { height: 20px; width: 160px; }
+
+.Util_01, .Util_02, .Util_03, .Util_04, .Util_05, .Util_06, .Util_07, .Util_08, .Util_09 { width: 32px; }
+.Util_10, .Util_11, .Util_12 { width: 45px; }
+
+
+/*자원조성후보지관리GIS서비스*/
+#GISTopWarp2 { width: 100%; height: 57px; background: url(../images/gis/TopWarpBg2.png) repeat-x; position: relative; }
+#GISTopWarp2 H1 { width: 260px; height: 25px; position: absolute; left: 3%; top: 13px; background: url(../images/gis/sys_name2.png) no-repeat; }
+#GISTopWarp2 H2 { width: 199px; height: 34px; position: absolute; right: 3%; top: 7px; background: url(../images/gis/pira_logo.png) no-repeat; }
+
+#GISTopWarp2 .Bt_ctrl { /*position: absolute; left: 500px; top: 7px;*/ position: absolute; left: 28%; top: 7px; }
+#GISTopWarp2 .Bt_ctrl li { float: left; margin-right: 15px; }
+#GISTopWarp2 .Bt_ctrl li a { display: block; height: 41px; }
+#GISTopWarp2 .Bt_ctrl li span { display: block; font-size: 11px; letter-spacing: -1px; color: #FFF; padding-top: 28px; text-align: center; }
+#GISTopWarp2 .Bt_ctrl li.Util_01 { background: url(../images/gis/util_13.png) center top no-repeat; }
+#GISTopWarp2 .Bt_ctrl li.Util_02 { background: url(../images/gis/util_14.png) center top no-repeat; }
+#GISTopWarp2 .Bt_ctrl li.Util_03 { background: url(../images/gis/util_15.png) center top no-repeat; }
+#GISTopWarp2 .Bt_ctrl li.Util_04 { background: url(../images/gis/util_16.png) center top no-repeat; }
+#GISTopWarp2 .Bt_ctrl li.Util_05 { background: url(../images/gis/util_17.png) center top no-repeat; }
+#GISTopWarp2 .Bt_ctrl li.Util_06 { background: url(../images/gis/util_18.png) center top no-repeat; }
+#GISTopWarp2 .Bt_ctrl li.Util_07 { background: url(../images/gis/util_19.png) center top no-repeat; }
+#GISTopWarp2 .Bt_ctrl li.Util_08 { background: url(../images/gis/util_20.png) center top no-repeat; }
+#GISTopWarp2 .Bt_ctrl li.Util_09 { background: url(../images/gis/util_21.png) center top no-repeat; }
+#GISTopWarp2 .Bt_ctrl li.Util_10 { background: url(../images/gis/util_22.png) center top no-repeat; margin-right: 0px; }
+#GISTopWarp2 .Bt_ctrl li.Util_11 { background: url(../images/gis/util_23.png) center top no-repeat; margin-right: 0px; }
+#GISTopWarp2 .Bt_ctrl li.Util_12 { background: url(../images/gis/util_24.png) center top no-repeat; }
+#GISTopWarp2 .Bt_ctrl li.Util_13 { }
+#GISTopWarp2 .Bt_ctrl li.Util_13 select { height: 20px; width: 160px; }
+
+
+
+
+
+
+
+
+
+
+
+#gis_warp { width:278px; height:auto; }
+.x { width:20px; height:20px; float:right; margin-top:6px; margin-right:4px; }
+#cont { width:278px; height:auto; background-image: url(../images/gis/bg.gif); background-repeat: no-repeat; }
+.bot_shadow { width:278px; height:3px; background-image: url(../images/gis/shadow_bg.gif); background-repeat: repeat-x; }
+
+#tap { width:258px; height:23px; margin-bottom:15px; }
+.tap_1_depth { width:86px; height:23px; float:left; }
+.tap_2_depth { width:129px; height:23px; float:left; }
+
+
+
+/**top**/
+#top_warp { width:1000px; height:52px; margin-top:26px; margin-bottom:12px; }
+#top_ci { width:237px; height:52px; background-image: url(../images/gis/top_ci.png); background-repeat: no-repeat; margin-right:50px; float:left; }
+#top_icon_form { width:35px; height:52px; float:left; margin-right:8px; }
+#top_icon_form .icon_images { width:35px; height:34px; }
+#top_icon_form .icon_name { width:35px; height:18px; font-size:11px; letter-spacing:-1px; color:#393939; text-align:center; }
+#top_map_button { width:122px; height:29px; float:right; margin-top:8px; }
+#top_map_button .fir { width:61px; height:29px; float:left; }
+
+
+
+
+
+/**검색**/
+.title_bar_1 { width:278px; height:33px; background-image: url(../images/gis/title_bar_1_search.png); }
+#cont_search { width:256px; height:166px; margin-left:10px; margin-right:10px; padding-top:17px; }
+.abc { width:256px; height:18px; padding-top:3px; }
+.sel_naming { width:45px; height:15px; margin-left:17px; margin-right:24px; letter-spacing:-1px; float:left; padding-top:3px; }
+.sel_box { width:153px; height:18px; float:left; color: #868686; border: 1px solid #c0c0c0; font-size:11px; font-family:"돋움"; }
+#bt_ok { width:50px; height:20px; float:right; margin-right:17px; margin-bottom:15px; margin-top:15px; }
+
+/**현황**/
+.title_bar_2 { width:278px; height:33px; background-image: url(../images/gis/title_bar_2_situation.png); }
+#cont_situation1 { width:256px; height:95px; margin-left:11px; margin-right:11px; padding-top:13px; }
+#cont_situation2 { width:254px; height:200px; margin-left:10px; margin-right:10px;}
+#cont_situation2 table th, td { font-size: 11px; }
+.box_style_1_1 { border-top: 1px solid #c9c9c9; border-right: 1px solid #c9c9c9; height: 22px; width:33px; letter-spacing:-1px; text-align:center; }
+.box_style_1_2 { border-top: 1px solid #c9c9c9; height: 22px; width:33px; letter-spacing:-1px; text-align:center; }
+.box_style_1_3 { border-top: 1px solid #c9c9c9; border-right: 1px solid #c9c9c9; border-botoom: 1px solid #c9c9c9; height: 22px; width:33px; letter-spacing:-1px; text-align:center; }
+.box_style_1_4 { border-top: 1px solid #c9c9c9; border-botoom: 1px solid #c9c9c9; height: 22px; width:33px; letter-spacing:-1px; text-align:center; }
+.box_style_1_5 { border-top: 1px solid #c9c9c9; border-right: 1px solid #c9c9c9; height: 22px; letter-spacing:-1px; text-align:center; }
+.box_style_1_6 { border-top: 1px solid #c9c9c9; height: 22px; letter-spacing:-1px; text-align:center; }
+.box_style_1_7 { border-top: 1px solid #c9c9c9; border-right: 1px solid #c9c9c9; width:86px; letter-spacing:-1px; text-align:left; 	text-indent: 5px; }
+.box_style_1_8 { border-top: 1px solid #c9c9c9; border-right: 1px solid #c9c9c9; border-botoom: 1px solid #c9c9c9; width:86px; letter-spacing:-1px; text-align:left; text-indent: 5px; }
+.box_style_1_9 { border-top: 1px solid #c9c9c9; border-right: 1px solid #c9c9c9; width:34px; letter-spacing:-1px; text-align:center; }
+.box_style_1_10 { border-top: 1px solid #c9c9c9; border-right: 1px solid #c9c9c9; border-botoom: 1px solid #c9c9c9;  width:34px; letter-spacing:-1px; text-align:center; }
+.box_style_1_11 { border-top: 1px solid #c9c9c9; border-right: 1px solid #c9c9c9;  }
+
+/**주제도**/
+.title_bar_3 { width:278px; height:33px; background-image: url(../images/gis/title_bar_3_map.png); }
+.title_bar_4 { width:250px; height:33px; background-image: url(../images/gis/title_bar_3_map.png); }
+#cont_map { width:256px; height:400px; margin-left:11px; margin-right:11px; padding-top:17px; }
+#opacity { width:256px; height:36px; }
+
+
+#mapToggle{width:134px; height:33px; position:absolute; z-index : 1000; top:70px; right:50px;}
+#mapToggle li{float:left;}
+
+
+
+
+
+
